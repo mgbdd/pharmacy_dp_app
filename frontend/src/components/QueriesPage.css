@@ -1,0 +1,138 @@
+.queries-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.queries-page h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.queries-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.queries-navigation button {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  margin: 0 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.queries-navigation button:hover {
+  background-color: #e0e0e0;
+}
+
+.queries-navigation button.active {
+  background-color: #3498db;
+  color: white;
+  border-color: #2980b9;
+}
+
+.queries-content {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.query-section {
+  margin-bottom: 30px;
+}
+
+.query-section h2 {
+  font-size: 1.4rem;
+  color: #2c3e50;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.query-card {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.query-card h3 {
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #3498db;
+}
+
+.query-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.query-form input,
+.query-form select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.query-form button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.query-form button:hover {
+  background-color: #2980b9;
+}
+
+.query-results {
+  overflow-x: auto;
+}
+
+.query-results table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.query-results th,
+.query-results td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.query-results th {
+  background-color: #f2f2f2;
+}
+
+.query-results tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.query-count {
+  font-size: 1.2rem;
+  margin: 15px 0;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.empty-result {
+  color: #7f8c8d;
+  font-style: italic;
+  padding: 15px 0;
+}

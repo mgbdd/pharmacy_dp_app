@@ -1,0 +1,23 @@
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #3498db;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: rgba(52, 152, 219, 0.1);
+}
+
+.nav-icon {
+  margin-right: 8px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,41 @@
+.additional-options {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.additional-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 200px;
+  height: 120px;
+  border-radius: 10px;
+  background-color: #f1f8fe;
+  border: 2px solid #3498db;
+  text-decoration: none;
+  color: #2c3e50;
+  transition: all 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.additional-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.additional-button.queries {
+  background-color: #e8f4fd;
+}
+
+.additional-button .button-icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.additional-button .button-title {
+  font-size: 18px;
+  font-weight: bold;
+}
